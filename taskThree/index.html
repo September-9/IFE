@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Document</title>
+  <style type="text/css">
+    *{margin:0; padding:0;box-sizing: border-box;}
+    body,html{
+      height:100%;
+      border:1px solid #999;
+      padding:20px;
+    }
+    article{
+      padding:20px;
+      background: #eee;
+      border:1px solid #999;
+      overflow: auto;
+    }
+    .left-box{
+      width:200px;
+      border:1px solid #999;
+      padding: 20px;
+      float: left;
+      background: #fff;
+    }
+    .left-box > img{
+      float: left;
+      border:1px solid #999;
+      width:80px;
+      height:auto;
+      margin-right: 20px;
+    }
+    .left-box .topic{
+      float: left;
+      font-size: 16px;
+    }
+    .right-box{
+      list-style: none;
+      padding:20px;
+      width:120px;
+      float:right;
+      overflow: auto;
+      border:1px solid #999;
+    }
+    .right-box > li{
+      padding-bottom: 20px;
+    }
+    .right-box > li:last-child{
+      padding-bottom: 0;
+    }
+    .right-box > li > img {
+      border:1px solid #999;
+      width:80px;
+      height:auto;
+    }
+    .middle-box{
+      border:1px solid #999;
+      background: #fff;
+      margin-left: 220px;
+      margin-right:140px;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+  <article>
+    <div class="left-box">
+      <img src="./image.jpg" alt="girl">
+      <h2 class="topic">Lucy</h2>
+    </div>
+    <ul class="right-box">
+      <li><img src="./longmao.jpg" alt="longmao"></li>
+      <li><img src="./longmao.jpg" alt="longmao"></li>
+      <li><img src="./longmao.jpg" alt="longmao"></li>
+      <li><img src="./longmao.jpg" alt="longmao"></li>
+    </ul>
+    <div class="middle-box">
+      <p>百度前端技术学院的课程任务是由百度前端工程师专为对前端不同掌握程度的同学设计。我们尽力保证课程内容的质量以及学习难度的合理性，但即使如此，真正决定课程效果的，还是你的每一次思考和实践。</p>
+      <p>那些最终没有被我们采纳的方案，同样也可以帮助我们学到很多知识。所以，我们列出的参考资料未必是实现需求所必须的。有的时候，实现题目的要求很简单，甚至参考资料里就有，但是背后的思考和亲手去实践却是任务最关键的一部分。在学习这些资料时，要多思考，多提问，多质疑。相信通过和小伙伴们的交流，能让你的学习事半功倍。</p>
+    </div>
+  </article>
+</body>
+</html>
