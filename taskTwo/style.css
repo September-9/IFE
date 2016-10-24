@@ -64,6 +64,7 @@ aside h1{
   width:100%;
   padding-bottom:10px;
   box-sizing: border-box;
+  font-size:0;
 }
 .form-title{
   display: inline-block;
