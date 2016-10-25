@@ -1,0 +1,123 @@
+html,body{
+  padding:0;
+  margin:0;
+  background: #DEDEDE;
+  font-family:  "Microsoft YaHei","Arial","黑体","宋体",sans-serif;;
+}
+header{
+  width:100%;
+  height:80px;
+  background:#000;
+  text-align: center;
+  line-height: 80px;
+}
+header > .title{
+  font-size: 20px;
+  font-weight: bold;
+  color:#ccc;
+}
+article{
+  margin:20px;
+  padding: 20px;
+  border:1px solid #ccc;
+  box-shadow: 2px 2px #999;
+  background: #fff;
+}
+.sub-title{
+  font-size: 18px;
+  font-weight: bold;
+  color:#62666F;
+}
+.author,.time{
+  font-size: 12px;
+  color:#62666F;
+}
+.sort-list li{
+  font-family: 14px;
+  padding-bottom: 5px;
+}
+.table-discription{
+  margin-bottom: 0;
+}
+.table{
+  width:100%;
+  border:1px solid #ccc;
+  border-collapse: collapse;
+}
+.table th,.table td{
+  border: 1px solid #ccc;
+}
+.table td,.table th{
+  padding:5px;
+}
+.table > thead{
+  background: #333;
+  color:#fff;
+  text-align: left;
+  font-size: 14px;
+}
+.table tbody td{
+  font-size: 12px;
+}
+.table .tfoot{
+  background: #CCC;
+  font-weight: bold;
+}
+aside{
+  border-left:4px solid #ccc;
+  height:40px;
+}
+aside h1{
+  padding-left:10px;
+  line-height: 40px;
+  font-size: 1rem;
+}
+.form-group{
+  width:100%;
+  padding-bottom:10px;
+  box-sizing: border-box;
+  font-size:0;
+}
+.form-title{
+  display: inline-block;
+  width:33%;
+  text-align: right;
+  padding-right:10px;
+  box-sizing: border-box;
+  font-size: 14px;
+}
+.form-input{
+  display: inline-block;
+  width:65%;
+  text-align: left;
+  font-size: 14px;
+  vertical-align: top;
+}
+.form-tips{
+  font-size: 12px;
+  color:#999;
+  padding-left:33%;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+.option{
+  vertical-align: top;
+}
+.submit{
+  width: 100%;
+  color:#fff;
+  background: #3355D0;
+  border-radius: 10px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border:none;
+}
+footer{
+  height:60px;
+  font-size: 12px;
+  color:#fff;
+  background: #000;
+  padding-top:30px;
+  text-align: center;
+}
